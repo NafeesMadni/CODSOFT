@@ -5,6 +5,7 @@ char cell[10] = {' ', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 int count = 0;
 void gameBoard()
 {
+     system("cls");
      cout << "\n\n\t     |     |     " << endl;
      cout << "\t  " << cell[1] << "  |  " << cell[2] << "  |  " << cell[3] << endl;
      cout << "\t_____|_____|_____" << endl;
